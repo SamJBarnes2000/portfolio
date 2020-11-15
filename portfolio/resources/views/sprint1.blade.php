@@ -38,26 +38,29 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-row-padding w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-twothird">
-      <h5 class="w3-padding-32">20/7</h5>
-      <p class="w3-text-grey">The first lecture was an introduction lecture to the Software Engineering course where we went over the basics of the semester, how it will work and what our assessments will be. At one point in the lesson we were tasked with doing some self-learning to which I researched a few things about the assessments and sorted out a few jobs, what was unknown to us is that Adon was watching over us to see how we would use our self-directed time and if it was wise or not. After that I came to the realisation that I did mess around a lot on my phone in between tasks and overall was not focused on my work. I know now to keep this in mind and make sure that I keep myself on task and up to date on my work as to not get side-tracked as this can happen quite easily on early days especially.</p>
+      <h5 class="w3-padding-32">3/8</h5>
+      <p class="w3-text-grey">Today was the first day of our first spring where we started to modify our CRUD app to be our outline for our project. This class I fixed up all of the user stories to be used for our website so they can be handed out to people as thing needed to be done, and the others worked mainly on the app researching how to create a crud app and make it look presentable. By the end of the lesson we had a functioning create and view part of the crud app with appropriate layout and buttons that take us to other pages. I believe already we have made a good start in our project so that we can start dividing out work to be done by each person. Next class will be a git workshop lab so we can get a greater understanding on what we can do to minimise merging when we push our work.</p>
+      <img src="../public/img/userstories.png" alt="User Stories">
     </div>
   </div>
   <div class="w3-content">
     <div class="w3-twothird">
-      <h5 class="w3-padding-32">23/7</h5>
-      <p class="w3-text-grey">This period we stated to work with Laragon which we had previously used in the first period of introductory app development, so I was familiar with the program. We were put into our groups and we were tasked with using GitHub to all work on the same project at the same time. We kept having issues mainly with pushing and pulling projects. The person who created the document would have all the necessary files to run the website on the local host, but anyone that pulled it from GitHub would not have those files and therefore could not run it. We ended up making some changes to the .readme files and installing some extra software that the host had to try and fix it but ultimately we got to a point where we could load up the project but were still getting errors when we tried to use the webpage on the local host. These issues should be ironed out by next class, if not there is another way, we can load it us with it all working but is more time consuming and tedious. </p>
+      <h5 class="w3-padding-32">7/8</h5>
+      <p class="w3-text-grey">This was the second class of our first sprint where we had our interview with our client on what type of website we were making and what features we wanted in our website. This interview was short and to the point, we are to make a gaming website like the preview website from the previous year with some different features here and there. We mainly have free range on the website, but I feel like the client will make us change some of the stuff we have made so we will have to account for that later down the track. The rest of this lesson I wrote up the requirements to both one note and our GitHub project so someone can claim the task and work on it. We also had a GitHub workshop so we created our sperate branches with this information which should resolve merging issues. I stated on making a search bar with a drop-down menu to make going from page to page a lot easier, and so that we have a working webpage to show at the end of our first sprint.</p>
+      <img src="../public/img/interview.png" alt="Interview">
+      <img src="../public/img/sprint1git.png" alt="Sprint 1 Git Hub Project">
     </div>
   </div>
   <div class="w3-content">
     <div class="w3-twothird">
-      <h5 class="w3-padding-32">27/7</h5>
-      <p class="w3-text-grey">Today we continued to work on our CRUD app where we got to iron out a lot of the issues that we were having in the previous lesson. One of our issues is that we had no idea about a CRUD app and how we would go about actually making one. Adon recommended actually looking it up and learning more about CRUD which through looking it up was a template for us to create a web page that can create, update and delete data which is what we need to do. Using google seems like something that should be done in any situation where you don’t know what you’re doing, I think our problem however is that we were looking up the wrong things including how to create a array in js and how to actually use JS in Laravel, but it was much easier and simple to just look up what a CRUD app was which gave us everything we needed to know. We were also able to fix out GitHub issues which we were worried about having, once we worked them out it was much easier than we initially thought. Fixing it gave me a deeper understanding of git and how to fix these issues when they arise.</p>
+      <h5 class="w3-padding-32"></h5>
+      <p class="w3-text-grey"></p>
     </div>
   </div>
   <div class="w3-content">
     <div class="w3-twothird">
-      <h5 class="w3-padding-32">30/7</h5>
-      <p class="w3-text-grey">Today we were looking into user cases which are used to figure out what a user would be looking for in an application. These simple statements can be used to break down a project into tiny bite sized pieces that can be used to hand out to group member to try an implement these features in our application when we get out assignment next week. We trialled these out on a pre-existing project where we had to make these statements as a group. The problem is that we all made our individual statements and did not do them as a group. This means that we will have to work on working as a group together if we want to do well as a group on out final project.</p>
+      <h5 class="w3-padding-32"></h5>
+      <p class="w3-text-grey"></p>
     </div>
   </div>
 </div>
@@ -70,12 +73,38 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
 
     <div class="w3-twothird">
-      <h1>Lorem Ipsum</h1>
-      <h5 class="w3-padding-32">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</h5>
+      <h1>Sprint Outlines:</h1>
+      <h5 class="w3-padding-32">Professional Achievement:</h5>
 
-      <p class="w3-text-grey">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Excepteur sint
-        occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-        laboris nisi ut aliquip ex ea commodo consequat.</p>
+      <p class="w3-text-grey">For the first sprint I wanted everything to be laid out in a way that would make it easier for our group to coordinate our work and lay our workload out in a way that was easily accessible and quick to read and understand. I achieved this by merging all the user stories into one document, deleting the duplicate ones, and typing them up how each one should be laid out with “I want, so I” statements. I also typed up the interview from our client and put everything down in bullet pointed parts that the team can easily pick out. I also duplicated this as a git hub project so team members can pick and choose what they want to complete each sprint.</p>
+    </div>
+
+    <div class="w3-twothird">
+      <h5 class="w3-padding-32">Technical Achievement:</h5>
+
+      <p class="w3-text-grey"> I made a Navigation bar and hamburger model early on in a layout file with a content section so we would have a basic layout for each page so that our teammates could easily add on their pages with a present layout to change and access from the navigation bar. I did this early on to try and make our lives a bit easier by not having to type in a route in the web navigation every time we wanted to work on a different page.</p>
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Agile Evidence:</h1>
+      <h5 class="w3-padding-32">Values:</h5>
+      <p class="w3-text-grey">1. Customer collaboration over contract negotiation: the interview was us and the client discussing items and functions that they would like in their website; these were all written out as items that we must complete.</p>
+      
+      <h5 class="w3-padding-32">Principles:</h5>
+      <p class="w3-text-grey">10. Simplicity: I wanted everything to be easily assessable for my team with user stories, git hub projects and a navigation bar to make everyone’s lives easier and simple.</p>
+      
+      <h1>Personal Reflection:</h1>
+      <h5 class="w3-padding-32">What did you do well?</h5>
+      <p class="w3-text-grey">I believe that I was useful in the way that I wanted to make thing easier for our team and took the jobs where I could modify our requirements into a more attractive layout to make navigation of our requirements easier.</p>
+    
+      <h5 class="w3-padding-32">What could you have done better?</h5>
+      <p class="w3-text-grey">I could have focused on more software work as more of my time was spent on getting our user stories, interview and git hub sorted which left me not a lot of time to work on the back end of the website.</p>
+    
+      <h5 class="w3-padding-32">What lessons did you learn?</h5>
+      <p class="w3-text-grey">I learnt that there would be a lot of work ahead of us one I read through our clients requirements which means my time management on the tasks that I will take will need to be improved if I want to get everything done in time for our sprints.</p>
+    
+      <h5 class="w3-padding-32">What barriers did you encounter?</h5>
+      <p class="w3-text-grey">I think that getting started was the hardest part as there was so much that needed to be done that it was hard to decide what to take first and figure out what would be the most useful for our team. In the end I decided on getting the things that I knew how to do first and take it as I go.</p>
     </div>
   </div>
 </div>
