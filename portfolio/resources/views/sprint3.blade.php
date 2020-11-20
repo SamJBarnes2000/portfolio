@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<title>Sprint 1</title>
+<title>Sprint 3</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -18,13 +18,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/portfolio/public/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="/portfolio/public/sprint1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 1</a>
-    <a href="/portfolio/public/sprint2" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 2</a>
-    <a href="/portfolio/public/sprint3" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 3</a>
-    <a href="/portfolio/public/sprint4" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 4</a>
-    <a href="/portfolio/public/sprint5" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 5</a>
-    <a href="/portfolio/public/sprint6" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 6</a>
+    <a href="{{url('/')}}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="{{url('/sprint1')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 1</a>
+    <a href="{{url('/sprint2')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 2</a>
+    <a href="{{url('/sprint3')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 3</a>
+    <a href="{{url('/sprint4')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 4</a>
+    <a href="{{url('/sprint5')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 5</a>
+    <a href="{{url('/sprint6')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 6</a>
+    <a href="{{url('/aftersprints')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">After Sprints</a>
   </div>
 </div>
 
@@ -58,7 +59,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-twothird">
       <h5 class="w3-padding-32">10/9 </h5>
       <p class="w3-text-grey">From the previous lesson I had a fully completed style.less file but it was currently not working. I have done less in the past, but I needed to spend a bit of time doing some research on how to load in the less.js file and how to order everything. Once I did some research, I had a fully set up less file and the website was looking good. Once I finished this I crated a merge request as this was the last day of our third sprint and I just spent the rest of the lesson helping out our teammates, one with creating a new page to view the cars and another with fixing issues with the database.</p>
-      <img src="../public/img/mergerequest.png" alt="Sprint 3 Merge Request">
+      <img src="{{asset('img/mergerequest.png')}}" alt="Sprint 3 Merge Request">
     </div>
   </div>
 </div>
@@ -73,36 +74,32 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-twothird">
       <h1>Sprint Outlines:</h1>
       <h5 class="w3-padding-32">Professional Achievement:</h5>
-
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">This sprint I spent my time modifying our entire app.css file to be supported by style.less which means that we can use naming conventions for values like colour, pixels, percentages and more. The app.css file is around 11,000 lines of code so for each main value and all colours I gave a naming convention for the rest of the group to use. In the end it took me 4 hours to go through it all finding all colours and assigning them a value. </p>
     </div>
 
     <div class="w3-twothird">
       <h5 class="w3-padding-32">Technical Achievement:</h5>
-
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">This sprint we also got a twist were our games website was now going to be a car website so a lot of my time was also spent re-naming our naming conventions from games to cars. We had to coordinate as a group who was going to rename what as not to do two lots of work that does not need to be done.</p>
     </div>
 
     <div class="w3-twothird">
       <h1>Agile Evidence:</h1>
-      <h5 class="w3-padding-32">Values:</h5>
-      <p class="w3-text-grey"></p>
-      
       <h5 class="w3-padding-32">Principles:</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">2. Accommodate changing requirements throughout the development process: since we had our website changed by our client we had to change up everything that we had already done, but as a development team we needed to be accommodating for that so we did was our client requested. </p>
+      <p class="w3-text-grey">9. Attention to technical detail and design enhances agility: modifying the app.css meant that the future design will be more consistent and fluid as we have a range of colours and values to choose from with the naming conventions, making everyone’s lives easier and our website design more consistent.</p>
       
       <h1>Personal Reflection:</h1>
       <h5 class="w3-padding-32">What did you do well?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">Even though it took me a lot of time once I got my head stuck into it I was very efficient in the way that I was working. I was constantly focused and spent very little time unfocused or working on other parts of the website before I got it finished. </p>
     
       <h5 class="w3-padding-32">What could you have done better?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">I think I got too deep into my work where I wasn’t helping out others with their problems and or I wasn’t working on my own piece of software, but the client requested that I do this.</p>
     
       <h5 class="w3-padding-32">What lessons did you learn?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">That even though it might be long and repetitive work sometimes its better to just get your head stuck in and get it done or else it will become a bigger problem later. </p>
     
       <h5 class="w3-padding-32">What barriers did you encounter?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">When I went to deploy my style.less file none of the website was getting its layout which means I had to do my research on less and ultimately I had to add in a JavaScript file that implemented to the less functions into the CSS.</p>
     </div>
   </div>
 </div>
@@ -115,7 +112,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
- <p>Link to our Website: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">link</a></p>
+ <p>Link to our Website: <a href="{{url('http://share-your-car.herokuapp.com/cars/main')}}" target="_blank">http://share-your-car.herokuapp.com/cars/main</a></p>
 </footer>
 
 </body>

@@ -40,3 +40,7 @@ Route::get('/sprint5', function () {
 Route::get('/sprint6', function () {
     return view('sprint6');
 });
+
+Route::get('/aftersprints', function () {
+    return view('aftersprints');
+});

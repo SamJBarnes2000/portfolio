@@ -18,13 +18,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/portfolio/public/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="/portfolio/public/sprint1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 1</a>
-    <a href="/portfolio/public/sprint2" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 2</a>
-    <a href="/portfolio/public/sprint3" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 3</a>
-    <a href="/portfolio/public/sprint4" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 4</a>
-    <a href="/portfolio/public/sprint5" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 5</a>
-    <a href="/portfolio/public/sprint6" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 6</a>
+    <a href="{{url('/')}}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="{{url('/sprint1')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 1</a>
+    <a href="{{url('/sprint2')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 2</a>
+    <a href="{{url('/sprint3')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 3</a>
+    <a href="{{url('/sprint4')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 4</a>
+    <a href="{{url('/sprint5')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 5</a>
+    <a href="{{url('/sprint6')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 6</a>
+    <a href="{{url('/aftersprints')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">After Sprints</a>
   </div>
 </div>
 
@@ -54,14 +55,6 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <p class="w3-text-grey">This class I wanted to try and get my image upload test working but I knew I had picked maybe one of the more difficult ones to understand and get working. After a while of failing but making some progress in getting it to a state where just my code was the problem, I was able to start a new test where it would test authentication on our sign in page. After not too long this test was working and was displaying an output that showed that our auth was working well. Hopefully, all of this working through to get one test working will allow me to make a range of tests for each of the parts of our website that could quite easily fail. </p>
     </div>
   </div>
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h5 class="w3-padding-32">12/10</h5>
-      <p class="w3-text-grey">This was our first day back after the holiday break where we started our 5th sprint. This sprint is where I am going to dedicate to getting all the little issues that we are having out of the way. For instance, I want to finalise the navigation bar with the dropdown menu inside as the hamburger model was not showing and the mobile view was not working the way I want it too. There are many other issues as well including naming conventions till being games instead of cars in some places, wrong colours or ugly displays that could be re sized to better fit the web page, a responsive footer that serves some purpose and more. I also just want to help my group more and try and work on some things together as I feel like I am only really working solo now whereas we should be helping each other. By the end of this lesson I had the nav bar working how I want too but there is just one issue I will need to fix for next time. </p>
-      <p class="w3-text-grey">Desktop View</p>
-      <img src="../public/img/mergerequest.png" alt="Sprint 3 Merge Request">
-    </div>
-  </div>
 </div>
 
 <!-- Second Grid -->
@@ -75,35 +68,34 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h1>Sprint Outlines:</h1>
       <h5 class="w3-padding-32">Professional Achievement:</h5>
 
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">Merging all our work together went much smoother this time that each group member was present in class when we did this. This gave each of us a greater understanding of each other’s work and also allowed us to fix our merging issues as a group.</p>
     </div>
 
     <div class="w3-twothird">
       <h5 class="w3-padding-32">Technical Achievement:</h5>
 
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">We wanted to have some unit and feature tests for our website as it was one of the requirements for the client and for the project work. I told myself that I wanted to dive into the deep end and take on testing which I had not done in Laravel yet. I learnt a lot from this as there was a lot of research done to get the website to run unit tests and it took even longer to figure out how to write them. </p>
     </div>
 
     <div class="w3-twothird">
       <h1>Agile Evidence:</h1>
-      <h5 class="w3-padding-32">Values:</h5>
-      <p class="w3-text-grey"></p>
-      
+
       <h5 class="w3-padding-32">Principles:</h5>
-      <p class="w3-text-grey"></p>
-      
+      <p class="w3-text-grey">12. the team reflects on how to become more effective: with all of us here together we were able divide out the work for the sprint and we knew what each of us were doing and what we did the previous sprint.</p>
+      <p class="w3-text-grey">3. Deliver working software frequently: unit tests were a great way to figure out where our website was working and where we needed to improve or change our code to make it more efficient. For example we changed the way the file uploading for our create a car worked as the previous way was to complicated and confusing. </p>
+
       <h1>Personal Reflection:</h1>
       <h5 class="w3-padding-32">What did you do well?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">I am happy with the way I handled doing the testing as I knew very little about subject but I spent my time researching and working with Adon to get it to a point where I knew how to enable testing on our website and how to create them for a few different parts of our site.</p>
     
       <h5 class="w3-padding-32">What could you have done better?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">When I first started creating tests I started with a really difficult one which was testing file uploading on our CRUD which threw me off track a bit but I got my pace back when I changed to testing authentication and if users can view private sites with and without auth. </p>
     
       <h5 class="w3-padding-32">What lessons did you learn?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">I learnt that it ok to try things that may be outside of your comfort zone as you may just learn something from doing it. </p>
     
       <h5 class="w3-padding-32">What barriers did you encounter?</h5>
-      <p class="w3-text-grey"></p>
+      <p class="w3-text-grey">Testing the image upload was a big barrier that I could not get past this sprint but I know I will try to tackle in the future. I knew I needed more time to learn more about testing by taking on an easier test with code that I had worked on in the past.</p>
     </div>
   </div>
 </div>
@@ -116,7 +108,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
- <p>Link to our Website: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">link</a></p>
+ <p>Link to our Website: <a href="{{url('http://share-your-car.herokuapp.com/cars/main')}}" target="_blank">http://share-your-car.herokuapp.com/cars/main</a></p>
 </footer>
 
 </body>

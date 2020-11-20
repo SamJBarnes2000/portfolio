@@ -18,13 +18,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div class="w3-top">
   <div class="w3-bar w3-red w3-card w3-left-align w3-large">
     <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="/portfolio/public/" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
-    <a href="/portfolio/public/sprint1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 1</a>
-    <a href="/portfolio/public/sprint2" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 2</a>
-    <a href="/portfolio/public/sprint3" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 3</a>
-    <a href="/portfolio/public/sprint4" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 4</a>
-    <a href="/portfolio/public/sprint5" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 5</a>
-    <a href="/portfolio/public/sprint6" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 6</a>
+    <a href="{{url('/')}}" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="{{url('/sprint1')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 1</a>
+    <a href="{{url('/sprint2')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 2</a>
+    <a href="{{url('/sprint3')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 3</a>
+    <a href="{{url('/sprint4')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 4</a>
+    <a href="{{url('/sprint5')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 5</a>
+    <a href="{{url('/sprint6')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Sprint 6</a>
+    <a href="{{url('/aftersprints')}}" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">After Sprints</a>
   </div>
 </div>
 
@@ -47,20 +48,8 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     <div class="w3-twothird">
       <h5 class="w3-padding-32">7/8</h5>
       <p class="w3-text-grey">This was the second class of our first sprint where we had our interview with our client on what type of website we were making and what features we wanted in our website. This interview was short and to the point, we are to make a gaming website like the preview website from the previous year with some different features here and there. We mainly have free range on the website, but I feel like the client will make us change some of the stuff we have made so we will have to account for that later down the track. The rest of this lesson I wrote up the requirements to both one note and our GitHub project so someone can claim the task and work on it. We also had a GitHub workshop so we created our sperate branches with this information which should resolve merging issues. I stated on making a search bar with a drop-down menu to make going from page to page a lot easier, and so that we have a working webpage to show at the end of our first sprint.</p>
-      <img src="../public/img/interview.png" alt="Interview">
-      <img src="../public/img/sprint1git.png" alt="Sprint 1 Git Hub Project">
-    </div>
-  </div>
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h5 class="w3-padding-32"></h5>
-      <p class="w3-text-grey"></p>
-    </div>
-  </div>
-  <div class="w3-content">
-    <div class="w3-twothird">
-      <h5 class="w3-padding-32"></h5>
-      <p class="w3-text-grey"></p>
+      <img src="{{asset('img/interview.png')}}" alt="Interview">
+      <img src="{{asset('img/sprint1git.png')}}" alt="Sprint 1 Git Hub Project">
     </div>
   </div>
 </div>
@@ -117,7 +106,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 
 <!-- Footer -->
 <footer class="w3-container w3-padding-64 w3-center w3-opacity">  
- <p>Link to our Website: <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">link</a></p>
+ <p>Link to our Website: <a href="{{url('http://share-your-car.herokuapp.com/cars/main')}}" target="_blank">http://share-your-car.herokuapp.com/cars/main</a></p>
 </footer>
 
 </body>

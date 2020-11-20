@@ -40,4 +40,9 @@ class PageController extends Controller
     {
         return view ("sprint6");
     }
+
+    public function aftersprints()
+    {
+        return view ("aftersprints");
+    }
 }
